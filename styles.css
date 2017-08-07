@@ -1,0 +1,63 @@
+body, html {
+  height: 100%;
+  color: #fff;
+}
+
+.hero-image {
+  background-image: url("images/chooka.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /*filter: blur(8px) opacity(75%);*/
+  filter: grayscale(100%) blur(0);
+  position: relative;
+}
+
+.nav {
+  height: 50px;
+  width: 500px;
+  position: absolute;
+  right: 50px;
+  top: 25px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul:hover {
+  color: #d63657;
+}
+
+.nav li {
+  display: inline-block;
+  font-family: "Anton";
+  font-size: 25px;
+}
+
+.nav li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.bottom-corner {
+  height: 400px;
+  width: 400px;
+  /*background-color: #fff;*/
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  filter: blur(0) opacity(100%);
+}
+
+.bottom-corner p {
+  font-family: "Anton";
+  /*font-weight: bold;*/
+  font-size: 40px;
+  /*color: #fff;*/
+}
