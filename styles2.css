@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  color: #fff;
+  color: black;
 }
 
 .nav a {
@@ -9,13 +9,13 @@ body, html {
 }
 
 .hero-image {
-  background-image: url("images/chooka.jpg");
+  background-image: url("images/selfie1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100%;
   width: 100%;
-  /*filter: blur(8px) opacity(75%);*/
+  filter: blur(5px) opacity(75%);
   /*filter: grayscale(100%) blur(0);*/
   position: relative;
 }
@@ -43,7 +43,6 @@ body, html {
   display: inline-block;
   font-family: "Anton";
   font-size: 25px;
-  /*color: white;*/
 }
 
 .nav li:hover {
@@ -52,7 +51,7 @@ body, html {
 }
 
 .you-are-here {
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 25px;
   padding: 10px;
 }
@@ -74,4 +73,31 @@ body, html {
   /*font-weight: bold;*/
   font-size: 40px;
   /*color: #fff;*/
+}
+
+.profile-pic {
+  height: 300px;
+  width: 300px;
+  background-image: url("images/selfie2.jpg");
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 25px;
+  left: 350px;
+}
+
+.about {
+  height: 520px;
+  width: 500px;
+  /*background-color: #fff;*/
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  background: rgba(70, 72, 82, 0.5);
+  border-radius: 25px;
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Anton";
 }
